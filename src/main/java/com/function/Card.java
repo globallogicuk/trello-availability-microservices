@@ -46,7 +46,7 @@ public class Card {
         StringBuilder sb = new StringBuilder();
         days.forEach((k,v) ->
         {
-            sb.append(WordUtils.capitalizeFully(k.toString())+"\n");
+            sb.append(WordUtils.capitalizeFully(k.toString())+v.getDayComments()+"\n");
             sb.append(v.toString());
         });
         return sb.toString();
