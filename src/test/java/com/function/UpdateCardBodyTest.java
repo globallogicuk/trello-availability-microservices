@@ -206,4 +206,23 @@ public class UpdateCardBodyTest {
         assertEquals(ret.getStatus(), HttpStatus.OK);
         assertEquals(IOUtils.toString(classLoader.getResourceAsStream("tuesdayOneHourBooked.txt"), "UTF-8"), ret.getBody().toString());
     }
+
+    /**
+     * This a positive test case;
+     * On the card there may be comments on the day, I.E Tuesday - Phone Interviews Only
+     * These should be preserved when the card is rewritten
+     */
+    @Test
+    public void preserveDayCommentsWhenBookingSlot() throws Exception {
+        final Map<String, String> queryParams = new HashMap<>();
+        queryParams.put("eventStartTime", "2019-03-19T10:30:00.0000000+00:00");
+        queryParams.put("eventEndTime", "2019-03-19T11:00:00.0000000+00:00");
+        queryParams.put("eventSubject", "SomeEvent");
+
+        HttpResponseMessage ret = runQuery(queryParams, IOUtils.toString(classLoader.getResourceAsStream("dayWithDescription.txt"), "UTF-8"));
+
+        // Verify
+        assertEquals(ret.getStatus(), HttpStatus.OK);
+        assertEquals(IOUtils.toString(classLoader.getResourceAsStream("tuesdayHalfHourBookedWithDescription.txt"), "UTF-8"), ret.getBody().toString());
+    }
 }

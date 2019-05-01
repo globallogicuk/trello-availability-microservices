@@ -15,6 +15,8 @@ public class Day {
 
     private LinkedHashMap<String, TimeSlot> timeSlots = new LinkedHashMap<>();
 
+    private String dayComments = "";
+
     private void initialiseTimeSlots() {
         timeSlots.put("08:30", new TimeSlot("08:30","09:00"));
         timeSlots.put("09:00", new TimeSlot("09:00","09:30"));
@@ -44,6 +46,12 @@ public class Day {
      * Initialise a Day object by parsing a trello card String
      */
     public Day(String trelloCard) throws IOException, DataFormatException {
+        //Get any comments for the day
+        String result = trelloCard.split("\\R", 2)[0];
+        String extractedComments = result.substring(result.indexOf(" ")+1);
+        if (extractedComments != null && !extractedComments.isEmpty()) {
+            dayComments = " " + result.substring(result.indexOf(" ")+1);
+        }
         initialiseTimeSlots();
         //Set all days to unavailable so any gaps are retained
         for (Map.Entry<String, TimeSlot> entry : timeSlots.entrySet()) {
@@ -65,6 +73,10 @@ public class Day {
 
     public TimeSlot getTimeSlot(String startTime) {
         return timeSlots.get(startTime);
+    }
+
+    public String getDayComments() {
+        return dayComments;
     }
 
     @Override

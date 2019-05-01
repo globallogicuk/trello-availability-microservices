@@ -54,4 +54,12 @@ public class TestDay {
         assertEquals("Interview booked", processedDay.getTimeSlot("11:00").getComments());
         assertEquals(day, "\n"+processedDay.toString());
     }
+
+    @Test
+    public void testDayPreserveComments() throws IOException, DataFormatException {
+        String card = IOUtils.toString(classLoader.getResourceAsStream("dayWithDescription.txt"), "UTF-8");
+        String day = card.split("Tuesday")[1].split("Wednesday")[0];
+        Day processedDay = new Day(day);
+        assertEquals(processedDay.getDayComments(), " - Phone interviews only");
+    }
 }
