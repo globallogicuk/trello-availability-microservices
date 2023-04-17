@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.function.UpdateCardBodyTest" time="0.318" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.function.UpdateCardBodyTest" time="0.298" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/20/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/tom/code/trello-availability-microservices/target/surefire/surefirebooter-20230417205641015_3.jar /Users/tom/code/trello-availability-microservices/target/surefire 2023-04-17T20-56-40_966-jvmRun1 surefire-20230417205641015_1tmp surefire_0-20230417205641015_2tmp"/>
+    <property name="sun.java.command" value="/Users/tom/code/trello-availability-microservices/target/surefire/surefirebooter-20230417210341600_3.jar /Users/tom/code/trello-availability-microservices/target/surefire 2023-04-17T21-03-41_554-jvmRun1 surefire-20230417210341600_1tmp surefire_0-20230417210341600_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/tom/code/trello-availability-microservices/target/test-classes:/Users/tom/code/trello-availability-microservices/target/classes:/Users/tom/.m2/repository/com/microsoft/azure/functions/azure-functions-java-library/3.0.0/azure-functions-java-library-3.0.0.jar:/Users/tom/.m2/repository/com/microsoft/azure/functions/azure-functions-java-core-library/1.2.0/azure-functions-java-core-library-1.2.0.jar:/Users/tom/.m2/repository/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar:/Users/tom/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/tom/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/tom/.m2/repository/org/json/json/20230227/json-20230227.jar:/Users/tom/.m2/repository/junit/junit/5.0-SNAPSHOT/junit-5.0-SNAPSHOT.jar:/Users/tom/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tom/.m2/repository/org/mockito/mockito-core/4.10.0/mockito-core-4.10.0.jar:/Users/tom/.m2/repository/net/bytebuddy/byte-buddy/1.12.19/byte-buddy-1.12.19.jar:/Users/tom/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.19/byte-buddy-agent-1.12.19.jar:/Users/tom/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -29,7 +29,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/tom/code/trello-availability-microservices/target/surefire/surefirebooter-20230417205641015_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/tom/code/trello-availability-microservices/target/surefire/surefirebooter-20230417210341600_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20"/>
     <property name="user.name" value="tom"/>
@@ -56,263 +56,263 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="removeAvailableSlotDueToOneHourEvent" classname="com.function.UpdateCardBodyTest" time="0.261">
-    <system-err><![CDATA[Apr 17, 2023 8:56:41 PM com.function.UpdateCardBody run
+  <testcase name="removeAvailableSlotDueToOneHourEvent" classname="com.function.UpdateCardBodyTest" time="0.248">
+    <system-err><![CDATA[Apr 17, 2023 9:03:42 PM com.function.UpdateCardBody run
 INFO: Java HTTP trigger processed a request.
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
 ]]></system-err>
   </testcase>
-  <testcase name="removeAvailableSlotDueToHalfHourEvent" classname="com.function.UpdateCardBodyTest" time="0.012">
-    <system-err><![CDATA[Apr 17, 2023 8:56:41 PM com.function.UpdateCardBody run
+  <testcase name="removeAvailableSlotDueToHalfHourEvent" classname="com.function.UpdateCardBodyTest" time="0.009">
+    <system-err><![CDATA[Apr 17, 2023 9:03:42 PM com.function.UpdateCardBody run
 INFO: Java HTTP trigger processed a request.
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
 ]]></system-err>
   </testcase>
   <testcase name="removeAvailableSlotDueTo35MinuteEvent" classname="com.function.UpdateCardBodyTest" time="0.009">
-    <system-err><![CDATA[Apr 17, 2023 8:56:41 PM com.function.UpdateCardBody run
+    <system-err><![CDATA[Apr 17, 2023 9:03:42 PM com.function.UpdateCardBody run
 INFO: Java HTTP trigger processed a request.
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
 ]]></system-err>
   </testcase>
-  <testcase name="removeAvailableSlotDueTo25MinuteEvent" classname="com.function.UpdateCardBodyTest" time="0.007">
-    <system-err><![CDATA[Apr 17, 2023 8:56:41 PM com.function.UpdateCardBody run
+  <testcase name="removeAvailableSlotDueTo25MinuteEvent" classname="com.function.UpdateCardBodyTest" time="0.009">
+    <system-err><![CDATA[Apr 17, 2023 9:03:42 PM com.function.UpdateCardBody run
 INFO: Java HTTP trigger processed a request.
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
 ]]></system-err>
   </testcase>
   <testcase name="missingStartDate" classname="com.function.UpdateCardBodyTest" time="0.001">
-    <system-err><![CDATA[Apr 17, 2023 8:56:41 PM com.function.UpdateCardBody run
+    <system-err><![CDATA[Apr 17, 2023 9:03:42 PM com.function.UpdateCardBody run
 INFO: Java HTTP trigger processed a request.
 ]]></system-err>
   </testcase>
-  <testcase name="missingEndDate" classname="com.function.UpdateCardBodyTest" time="0.001">
-    <system-err><![CDATA[Apr 17, 2023 8:56:41 PM com.function.UpdateCardBody run
+  <testcase name="missingEndDate" classname="com.function.UpdateCardBodyTest" time="0">
+    <system-err><![CDATA[Apr 17, 2023 9:03:42 PM com.function.UpdateCardBody run
 INFO: Java HTTP trigger processed a request.
 ]]></system-err>
   </testcase>
   <testcase name="removeAvailableSlotDueToOneHourInterview" classname="com.function.UpdateCardBodyTest" time="0.006">
-    <system-err><![CDATA[Apr 17, 2023 8:56:41 PM com.function.UpdateCardBody run
+    <system-err><![CDATA[Apr 17, 2023 9:03:42 PM com.function.UpdateCardBody run
 INFO: Java HTTP trigger processed a request.
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
 ]]></system-err>
   </testcase>
-  <testcase name="preserveDayCommentsWhenBookingSlot" classname="com.function.UpdateCardBodyTest" time="0.011">
-    <system-err><![CDATA[Apr 17, 2023 8:56:41 PM com.function.UpdateCardBody run
+  <testcase name="preserveDayCommentsWhenBookingSlot" classname="com.function.UpdateCardBodyTest" time="0.006">
+    <system-err><![CDATA[Apr 17, 2023 9:03:42 PM com.function.UpdateCardBody run
 INFO: Java HTTP trigger processed a request.
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line:  - Phone interviews only
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
 ]]></system-err>
   </testcase>
-  <testcase name="removeAvailableSlotDueToHalfHourInterview" classname="com.function.UpdateCardBodyTest" time="0.008">
-    <system-err><![CDATA[Apr 17, 2023 8:56:41 PM com.function.UpdateCardBody run
+  <testcase name="removeAvailableSlotDueToHalfHourInterview" classname="com.function.UpdateCardBodyTest" time="0.007">
+    <system-err><![CDATA[Apr 17, 2023 9:03:42 PM com.function.UpdateCardBody run
 INFO: Java HTTP trigger processed a request.
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
-Apr 17, 2023 8:56:41 PM com.function.Day <init>
+Apr 17, 2023 9:03:42 PM com.function.Day <init>
 INFO: Unable to process line: 
 ]]></system-err>
   </testcase>
   <testcase name="missingEventSubject" classname="com.function.UpdateCardBodyTest" time="0.001">
-    <system-err><![CDATA[Apr 17, 2023 8:56:41 PM com.function.UpdateCardBody run
+    <system-err><![CDATA[Apr 17, 2023 9:03:42 PM com.function.UpdateCardBody run
 INFO: Java HTTP trigger processed a request.
 ]]></system-err>
   </testcase>
