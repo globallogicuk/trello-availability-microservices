@@ -15,7 +15,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <azure.functions.maven.plugin.version>1.25.0</azure.functions.maven.plugin.version>
-        <azure.functions.java.library.version>3.0.0</azure.functions.java.library.version>
+        <azure.functions.java.library.version>3.1.0</azure.functions.java.library.version>
         <functionAppName>trello-interview-availability-1552986456552</functionAppName>
         <functionAppRegion>westus</functionAppRegion>
         <stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
@@ -60,7 +60,7 @@
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
-                <version>4.10.0</version>
+                <version>5.14.1</version>
             </dependency>
             <dependency>
                 <groupId>com.microsoft.azure.functions</groupId>
